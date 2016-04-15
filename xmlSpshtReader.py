@@ -14,7 +14,7 @@ data = fh.read()
 #print 'Retrieved',len(data),'characters'       # Optional information to print
 
 tree = ET.parse(file_in).getroot()
-#tree = ET.fromstring(data)
+#tree = ET.fromstring(data)                     # Another way of obtaining the tags.
 
 ftag = '{urn:schemas-microsoft-com:office:spreadsheet}'     # Create a string with the first part of 
                                                             # the xml tag since this code is designed
