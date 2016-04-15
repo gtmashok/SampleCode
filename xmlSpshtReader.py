@@ -1,6 +1,6 @@
 # The "xmlSpshtReader.py" is designed to read XML Spreadsheet files that have been converted
 # from a spreadsheet format (.xlsx, .xls, etc.). You can fork this code and make appropriate 
-# adjustments to the code below (especially the tags).
+# adjustments to the code below (especially the 'rows' variable).
 
 # Included are comments next to each line explaining key sections of the code.
 
