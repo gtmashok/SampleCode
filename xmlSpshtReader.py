@@ -32,7 +32,7 @@ lname = list()
 email = list()
 for item in rows:
     c = c+1
-    if not (c % 5 == 2 or c % 5 == 3 or c % 5 == 0):
+    if not (c % 5 == 2 or c % 5 == 3 or c % 5 == 0):        # Determining the data items (representing each cell) to include.
         continue
     elif c % 5 == 2:
         fname.append(item.text)
